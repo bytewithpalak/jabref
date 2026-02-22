@@ -45,6 +45,7 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - macOS distributions now take "intel" and "silicon" as suffixes. [#14057](https://github.com/JabRef/jabref/pull/14057)
 - Moved "Rename subgroup" below "Edit group" and renamed it to "Rename group". [#15041](https://github.com/JabRef/jabref/issues/15041)
 - We hanged the bibliographic information update process to show a notification instead of a blocking dialog in case of errors. [#15097](https://github.com/JabRef/jabref/issues/15097)
+- Improve consistency of region comments in preferences classes
 
 ### Fixed
 
@@ -1905,28 +1906,3 @@ The changelog of JabRef 4.x is available at the [v4.3.1 tag](https://github.com/
 The changelog of JabRef 3.x is available at the [v3.8.2 tag](https://github.com/JabRef/jabref/blob/v3.8.2/CHANGELOG.md).
 The changelog of JabRef 2.11 and all previous versions is available as [text file in the v2.11.1 tag](https://github.com/JabRef/jabref/blob/v2.11.1/CHANGELOG).
 
-[Unreleased]: https://github.com/JabRef/jabref/compare/v6.0-alpha.4...HEAD
-[6.0-alpha.5]: https://github.com/JabRef/jabref/compare/v6.0-alpha.4...HEAD
-[6.0-alpha.4]: https://github.com/JabRef/jabref/compare/v6.0-alpha.3...HEAD
-[6.0-alpha.3]: https://github.com/JabRef/jabref/compare/v6.0-alpha2...v6.0-alpha.3
-[6.0-alpha2]: https://github.com/JabRef/jabref/compare/v6.0-alpha...v6.0-alpha2
-[6.0-alpha]: https://github.com/JabRef/jabref/compare/v5.15...v6.0-alpha
-[5.15]: https://github.com/JabRef/jabref/compare/v5.14...v5.15
-[5.14]: https://github.com/JabRef/jabref/compare/v5.13...v5.14
-[5.13]: https://github.com/JabRef/jabref/compare/v5.12...v5.13
-[5.12]: https://github.com/JabRef/jabref/compare/v5.11...v5.12
-[5.11]: https://github.com/JabRef/jabref/compare/v5.10...v5.11
-[5.10]: https://github.com/JabRef/jabref/compare/v5.9...v5.10
-[5.9]: https://github.com/JabRef/jabref/compare/v5.8...v5.9
-[5.8]: https://github.com/JabRef/jabref/compare/v5.7...v5.8
-[5.7]: https://github.com/JabRef/jabref/compare/v5.6...v5.7
-[5.6]: https://github.com/JabRef/jabref/compare/v5.5...v5.6
-[5.5]: https://github.com/JabRef/jabref/compare/v5.4...v5.5
-[5.4]: https://github.com/JabRef/jabref/compare/v5.3...v5.4
-[5.3]: https://github.com/JabRef/jabref/compare/v5.2...v5.3
-[5.2]: https://github.com/JabRef/jabref/compare/v5.1...v5.2
-[5.1]: https://github.com/JabRef/jabref/compare/v5.0...v5.1
-[5.0]: https://github.com/JabRef/jabref/compare/v5.0-beta...v5.0
-[5.0-beta]: https://github.com/JabRef/jabref/compare/v5.0-alpha...v5.0-beta
-[5.0-alpha]: https://github.com/JabRef/jabref/compare/v4.3...v5.0-alpha
-<!-- markdownlint-disable-file MD024 MD033 MD053 -->
