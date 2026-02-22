@@ -7,6 +7,11 @@ In case there is no issue present, the pull request implementing the feature is 
 
 Note that this project **does not** adhere to [Semantic Versioning](https://semver.org/).
 
+### [Unreleased]
+
+### Fixed
+- Fixed markdown documentation comments by replacing them with proper region markers for consistency. [#14897](https://github.com/JabRef/jabref/issues/14897)
+
 ## [6.0-alpha.5] – 2026-02-20
 
 ### Added
@@ -76,7 +81,7 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - `--help` works now at JabSrv. [#15085](https://github.com/JabRef/jabref/pull/15085)
 - Fixed UI overlap in Citation Relations tab when entry titles are very long. [#15047](https://github.com/JabRef/jabref/issues/15047)
 - Fixed capitalization errors in the Automatic Field Editor. [#15068](https://github.com/JabRef/jabref/issues/15068)
-- Fixed markdown documentation comments by replacing them with proper region markers for consistency. [#14897](https://github.com/JabRef/jabref/issues/14897)
+- Fixed markdown documentation comments by replacing them with proper region markers for consistency. [#14897]
 ### Removed
 
 - We removed keyboard shortcuts for toggling journal abbreviation (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>A</kbd>). [#14850](https://github.com/JabRef/jabref/pull/14850)
