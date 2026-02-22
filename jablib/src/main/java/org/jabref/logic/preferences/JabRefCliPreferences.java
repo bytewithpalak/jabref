@@ -843,9 +843,7 @@ public class JabRefCliPreferences implements CliPreferences {
         return JabRefCliPreferences.singleton;
     }
 
-    /// **********************************************************************************************************
-    /// Common serializer logic
-    /// ************************************************************************************************************
+    // region: Common serializer logic
 
     @VisibleForTesting
     static String convertListToString(List<String> value) {
@@ -861,9 +859,9 @@ public class JabRefCliPreferences implements CliPreferences {
         return Splitter.on(STRINGLIST_DELIMITER).splitToList(toConvert);
     }
 
-    /// ************************************************************************************************************
-    /// Backingstore access logic
-    /// ************************************************************************************************************
+    // endregion
+
+    // region: Backingstore access logic
 
     /// Check whether a key is set (differently from null).
     ///
@@ -1141,6 +1139,9 @@ public class JabRefCliPreferences implements CliPreferences {
                     ex);
         }
     }
+    
+    // endregion
+
     //*************************************************************************************************************
     // ToDo: Cleanup
     //*************************************************************************************************************
