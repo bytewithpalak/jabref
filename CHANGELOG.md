@@ -45,7 +45,6 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - macOS distributions now take "intel" and "silicon" as suffixes. [#14057](https://github.com/JabRef/jabref/pull/14057)
 - Moved "Rename subgroup" below "Edit group" and renamed it to "Rename group". [#15041](https://github.com/JabRef/jabref/issues/15041)
 - We hanged the bibliographic information update process to show a notification instead of a blocking dialog in case of errors. [#15097](https://github.com/JabRef/jabref/issues/15097)
-- Improve consistency of region comments in preferences classes
 
 ### Fixed
 
@@ -77,7 +76,6 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - `--help` works now at JabSrv. [#15085](https://github.com/JabRef/jabref/pull/15085)
 - Fixed UI overlap in Citation Relations tab when entry titles are very long. [#15047](https://github.com/JabRef/jabref/issues/15047)
 - Fixed capitalization errors in the Automatic Field Editor. [#15068](https://github.com/JabRef/jabref/issues/15068)
-### FIXED
 - Fixed markdown documentation comments by replacing them with proper region markers for consistency.[#14897](https://github.com/JabRef/jabref/issues/14897)
 ### Removed
 
